@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Propoerty</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 5px;
+        }
+        #first{
+            border: 2px solid;
+            background-color: blueviolet;
+        }
+        #second{
+            border: 1px dashed red;
+            border-radius: 10px;
+            background-color: chartreuse;
+            box-sizing: content-box;
+        }
+        #third{
+            background-color: cyan;
+            border: 2px black solid;
+            border-radius: 0px 10px 0px 10px;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="first" class="pad">first</div>
+
+    <div id="second" class="pad">second</div>
+    <div id="third" class="pad">third</div>
+</body>
+</html>
