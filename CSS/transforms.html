@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transforms</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: cadetblue;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            transition: all 1s ease-in;
+        }
+        #box1:hover{
+            transform: rotate(270deg);
+        }
+        #box2:hover{
+            transform: scale(2);
+        }
+        #box3:hover{
+            transform: translate(50px, 50px);
+        }
+        #box4:hover{
+            transform: skew(45deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Rotate</div> <br>
+    <div id="box2" class="box">Rotate</div> <br>
+    <div id="box3" class="box">Rotate</div> <br>
+    <div id="box4" class="box">Rotate</div>
+</body>
+</html>
